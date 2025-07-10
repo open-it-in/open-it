@@ -1,0 +1,18 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appID": "JH7CQD4MLU.ch.ubique.sprind.eudi.wallet",
+        "paths": [
+          "/heidi-funke-wallet/*"
+        ]
+      },
+      {
+        "appID": "JH7CQD4MLU.ch.ubique.heidi.wallet,
+        "paths": [
+          "/heidi-wallet/*"
+        ]
+      }
+    ]
+  }
+}
