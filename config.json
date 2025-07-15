@@ -1,0 +1,30 @@
+{
+  "apps" : [
+    {
+      "displayName": "Heidi",
+      "description": "Heidi Wallet",
+      "universalLink": "https://open-it.in/heidi-wallet",
+      "logoUrl": "https://heidi-universe.ch/images/webclip.png",
+      "category": "wallet",
+      "name": "heidi_wallet",
+      "apple-app-site-association" : {
+        "applinks": {
+          "details": [
+            {
+              "appID": "JH7CQD4MLU.ch.ubique.sprind.eudi.wallet",
+              "paths": [
+                "/heidi-funke-wallet/*"
+              ]
+            },
+            {
+              "appID": "JH7CQD4MLU.ch.ubique.heidi.wallet,
+              "paths": [
+                "/heidi-wallet/*"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
