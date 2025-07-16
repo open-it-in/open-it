@@ -1,0 +1,20 @@
+{
+  "name": "templates",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/mustache": "^4.2.6",
+    "bun-html-live-reload": "^1.0.4"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
