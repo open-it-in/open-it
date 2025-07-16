@@ -1,6 +1,25 @@
 {
   "apps" : [
     {
+      "displayName": "Sprind Eudi-Wallet",
+      "description": "Funke Prototype Wallet",
+      "universalLink": "https://open-it.in/heidi-funke-wallet",
+      "logoUrl": "https://heidi-universe.ch/images/webclip.png",
+      "category": "wallet",
+      "name": "sprind_wallet",
+      "apple-app-site-association" : {
+        "applinks": {
+          "details": [
+            {
+              "appIDs": ["JH7CQD4MLU.ch.ubique.sprind.eudi.wallet", "JH7CQD4MLU.ch.ubique.sprind.eudi.wallet.dev", "HP7ZUVLDZU.ch.ubique.sprind.eudi.wallet.dev", "HP7ZUVLDZU.ch.ubique.sprind.eudi.wallet"],
+              "paths": [
+                "/heidi-funke-wallet/*"
+              ]
+            }
+          ]
+        }
+    },
+    {
       "displayName": "Heidi",
       "description": "Heidi Wallet",
       "universalLink": "https://open-it.in/heidi-wallet",
@@ -10,13 +29,6 @@
       "apple-app-site-association" : {
         "applinks": {
           "details": [
-            {
-              "appIDs": ["JH7CQD4MLU.ch.ubique.sprind.eudi.wallet", "JH7CQD4MLU.ch.ubique.sprind.eudi.wallet.dev", "HP7ZUVLDZU.ch.ubique.sprind.eudi.wallet.dev", "HP7ZUVLDZU.ch.ubique.sprind.eudi.wallet"],
-              "paths": [
-                "/heidi-funke-wallet/*"
-              ]
-            },
-           
             {
               "appIDs": ["JH7CQD4MLU.ch.ubique.heidi.wallet"],
               "paths": [
