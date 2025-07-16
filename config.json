@@ -5,7 +5,7 @@
       "description": "Funke Prototype Wallet",
       "universalLink": "https://open-it.in/heidi-funke-wallet",
       "logoUrl": "https://heidi-universe.ch/images/webclip.png",
-      "redirectLink": https://heidi-universe.ch/en/eudi-wallet.html,
+      "redirectLink": "https://heidi-universe.ch/en/eudi-wallet.html",
       "category": "wallet",
       "name": "sprind_wallet",
       "apple-app-site-association": {
