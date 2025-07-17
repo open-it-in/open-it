@@ -8,6 +8,17 @@
       "redirectLink": "https://heidi-universe.ch/en/eudi-wallet.html",
       "category": "wallet",
       "name": "sprind_wallet",
+      "assetlinks.json" : [
+        {
+          "relation": ["delegate_permission/common.handle_all_urls"],
+          "target": {
+            "namespace": "android_app",
+            "package_name": "ch.ubique.sprindeudiwallet.android",
+            "sha256_cert_fingerprints":
+              ["99:82:8D:BD:1B:47:E8:17:6E:45:28:CB:E1:C6:84:61:96:8C:3F:B6:09:9A:4E:F3:08:2D:26:8D:26:78:F4:33", "ED:29:F6:05:FE:43:C3:EC:A0:C5:B2:90:0A:6D:D4:BB:B8:AA:F9:7B:0D:89:3A:F7:F7:46:CD:25:8F:CF:50:32"]
+          }
+        }
+      ],
       "apple-app-site-association": {
         "applinks": {
           "details": [
@@ -32,6 +43,17 @@
       "redirectLink": "https://heidi-universe.ch/en/eudi-wallet.html",
       "category": "wallet-dev",
       "name": "sprind_wallet_dev",
+      "assetlinks.json" : [
+        {
+          "relation": ["delegate_permission/common.handle_all_urls"],
+          "target": {
+            "namespace": "android_app",
+            "package_name": "ch.ubique.sprindeudiwallet.android.dev",
+            "sha256_cert_fingerprints":
+              ["99:82:8D:BD:1B:47:E8:17:6E:45:28:CB:E1:C6:84:61:96:8C:3F:B6:09:9A:4E:F3:08:2D:26:8D:26:78:F4:33", "ED:29:F6:05:FE:43:C3:EC:A0:C5:B2:90:0A:6D:D4:BB:B8:AA:F9:7B:0D:89:3A:F7:F7:46:CD:25:8F:CF:50:32"]
+          }
+        }
+      ],
       "apple-app-site-association": {
         "applinks": {
           "details": [
