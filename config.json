@@ -15,7 +15,7 @@
             "namespace": "android_app",
             "package_name": "ch.ubique.sprindeudiwallet.android",
             "sha256_cert_fingerprints":
-              ["99:82:8D:BD:1B:47:E8:17:6E:45:28:CB:E1:C6:84:61:96:8C:3F:B6:09:9A:4E:F3:08:2D:26:8D:26:78:F4:33", "ED:29:F6:05:FE:43:C3:EC:A0:C5:B2:90:0A:6D:D4:BB:B8:AA:F9:7B:0D:89:3A:F7:F7:46:CD:25:8F:CF:50:32"]
+              ["99:82:8D:BD:1B:47:E8:17:6E:45:28:CB:E1:C6:84:61:96:8C:3F:B6:09:9A:4E:F3:08:2D:26:8D:26:78:F4:33", "E2:B0:8D:B7:4B:DC:FB:B3:09:27:6E:E2:5F:F7:97:23:FF:B4:49:2B:57:C3:C0:75:B0:E1:BF:F3:3B:9E:39:D9", "ED:29:F6:05:FE:43:C3:EC:A0:C5:B2:90:0A:6D:D4:BB:B8:AA:F9:7B:0D:89:3A:F7:F7:46:CD:25:8F:CF:50:32"]
           }
         }
       ],
@@ -50,7 +50,7 @@
             "namespace": "android_app",
             "package_name": "ch.ubique.sprindeudiwallet.android.dev",
             "sha256_cert_fingerprints":
-              ["99:82:8D:BD:1B:47:E8:17:6E:45:28:CB:E1:C6:84:61:96:8C:3F:B6:09:9A:4E:F3:08:2D:26:8D:26:78:F4:33", "ED:29:F6:05:FE:43:C3:EC:A0:C5:B2:90:0A:6D:D4:BB:B8:AA:F9:7B:0D:89:3A:F7:F7:46:CD:25:8F:CF:50:32"]
+              ["99:82:8D:BD:1B:47:E8:17:6E:45:28:CB:E1:C6:84:61:96:8C:3F:B6:09:9A:4E:F3:08:2D:26:8D:26:78:F4:33", "E2:B0:8D:B7:4B:DC:FB:B3:09:27:6E:E2:5F:F7:97:23:FF:B4:49:2B:57:C3:C0:75:B0:E1:BF:F3:3B:9E:39:D9", "ED:29:F6:05:FE:43:C3:EC:A0:C5:B2:90:0A:6D:D4:BB:B8:AA:F9:7B:0D:89:3A:F7:F7:46:CD:25:8F:CF:50:32"]
           }
         }
       ],
@@ -85,7 +85,7 @@
             "namespace": "android_app",
             "package_name": "ch.ubique.heidi.android",
             "sha256_cert_fingerprints":
-              ["53:11:64:1D:BE:36:41:9C:CC:98:6F:E0:62:69:9D:9B:82:7A:18:96:2E:AA:AC:AF:87:18:5C:72:B5:89:F0:11", "ED:29:F6:05:FE:43:C3:EC:A0:C5:B2:90:0A:6D:D4:BB:B8:AA:F9:7B:0D:89:3A:F7:F7:46:CD:25:8F:CF:50:32"]
+              ["53:11:64:1D:BE:36:41:9C:CC:98:6F:E0:62:69:9D:9B:82:7A:18:96:2E:AA:AC:AF:87:18:5C:72:B5:89:F0:11", "E2:B0:8D:B7:4B:DC:FB:B3:09:27:6E:E2:5F:F7:97:23:FF:B4:49:2B:57:C3:C0:75:B0:E1:BF:F3:3B:9E:39:D9", "ED:29:F6:05:FE:43:C3:EC:A0:C5:B2:90:0A:6D:D4:BB:B8:AA:F9:7B:0D:89:3A:F7:F7:46:CD:25:8F:CF:50:32"]
           }
         }
       ],
