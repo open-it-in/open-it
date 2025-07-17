@@ -78,6 +78,17 @@
       "redirectLink": "https://heidi-universe.ch/en/wallet.html",
       "category": "wallet",
       "name": "heidi_wallet",
+      "assetlinks.json" : [
+        {
+          "relation": ["delegate_permission/common.handle_all_urls"],
+          "target": {
+            "namespace": "android_app",
+            "package_name": "ch.ubique.heidi.android",
+            "sha256_cert_fingerprints":
+              ["53:11:64:1D:BE:36:41:9C:CC:98:6F:E0:62:69:9D:9B:82:7A:18:96:2E:AA:AC:AF:87:18:5C:72:B5:89:F0:11", "ED:29:F6:05:FE:43:C3:EC:A0:C5:B2:90:0A:6D:D4:BB:B8:AA:F9:7B:0D:89:3A:F7:F7:46:CD:25:8F:CF:50:32"]
+          }
+        }
+      ],
       "apple-app-site-association": {
         "applinks": {
           "details": [
