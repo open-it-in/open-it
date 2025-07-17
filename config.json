@@ -25,8 +25,6 @@
             {
               "appIDs": [
                 "JH7CQD4MLU.ch.ubique.sprind.eudi.wallet",
-                "JH7CQD4MLU.ch.ubique.sprind.eudi.wallet.dev",
-                "HP7ZUVLDZU.ch.ubique.sprind.eudi.wallet.dev",
                 "HP7ZUVLDZU.ch.ubique.sprind.eudi.wallet"
               ],
               "paths": ["/heidi-funke-wallet/*"]
@@ -59,10 +57,8 @@
           "details": [
             {
               "appIDs": [
-                "JH7CQD4MLU.ch.ubique.sprind.eudi.wallet",
                 "JH7CQD4MLU.ch.ubique.sprind.eudi.wallet.dev",
                 "HP7ZUVLDZU.ch.ubique.sprind.eudi.wallet.dev",
-                "HP7ZUVLDZU.ch.ubique.sprind.eudi.wallet"
               ],
               "paths": ["/heidi-funke-wallet/*"]
             }
