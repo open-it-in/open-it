@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ category }}</title>
     <style>
+      * {
+        box-sizing: border-box;
+      }
       html {
         color-scheme: light dark;
       }
@@ -15,20 +18,8 @@
       ul {
         margin: 0;
         padding: 0;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1.5rem;
-      }
-      li {
-        max-width: 200px;
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-        align-items: center;
-      }
-      li h2 {
-        margin-top: 0.5rem;
-        margin-bottom: 0.25rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(7.75rem, 1fr));
       }
       img {
         width: 5rem;
@@ -57,12 +48,44 @@
       .category-heading {
         font-size: 2rem;
         font-weight: bold;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
-      .category-description {
+      .category-app {
+        list-style: none;
+      }
+      .category-app h2 {
+        margin-top: 0.5rem;
+        margin-bottom: 0.25rem;
+      }
+      .category-app a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .category-app--description {
         color: #777777;
         color: light-dark(#777777, #aaaaaa);
-        font-size: 0.875rem;
+        font-size: 0.75rem;
+        text-wrap: balance;
+        max-width: 75%;
+      }
+      @media screen and (max-width: 600px) {
+        .categories {
+          padding: 1.5rem;
+        }
+        img {
+          width: 4.5rem;
+          height: 4.5rem;
+        }
+        .category-app--name {
+          font-size: 0.875rem;
+        }
+        ul {
+          justify-items: center;
+          grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));
+          gap: 1rem;
+        }
       }
     </style>
   </head>
@@ -72,13 +95,13 @@
       <h1 class="category-heading">{{ category }}</h1>
       <ul>
         {{#apps}}
-        <a href="{{ url }}">
-          <li class="category-app">
+        <li class="category-app">
+          <a href="{{ url }}">
             <img src="{{ appIconUri }}" alt="{{ displayName }} App-Icon" />
-            <h2>{{ displayName }}</h2>
-            <p class="category-description">{{ description }}</p>
-          </li>
-        </a>
+            <h2 class="category-app--name">{{ displayName }}</h2>
+            <p class="category-app--description">{{ description }}</p>
+          </a>
+        </li>
         {{/apps}}
       </ul>
     </div>

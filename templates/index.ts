@@ -5,7 +5,7 @@ import "./src/app_template.mustache";
 import { withHtmlLiveReload } from "bun-html-live-reload";
 
 const server = Bun.serve({
-  port: 3000,
+  port: 3100,
   fetch: withHtmlLiveReload(async (req) => {
     const url = new URL(req.url);
     const pathname = url.pathname;
@@ -15,7 +15,7 @@ const server = Bun.serve({
         Mustache.render(
           await Bun.file("src/category_template.mustache").text(),
           {
-            category: "Hello, World!",
+            category: "Wallets",
             apps: config.apps,
           }
         ),

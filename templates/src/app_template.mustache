@@ -8,15 +8,98 @@
     {{/downloadUrl}}
     <title>{{ category }}</title>
     <style>
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        color-scheme: light dark;
+        height: 100%;
+      }
       body {
         font-family: system-ui, sans-serif;
         margin: 0;
+        height: 100%;
+      }
+      .app {
+        height: 100%;
+        opacity: 0;
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 2rem;
+        animation: fadeIn 0.2s ease-out forwards;
+        animation-delay: 0.5s;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+      }
+      h1,
+      h2,
+      p {
+        font-size: 1rem;
+        font-weight: normal;
+        margin: 0;
+      }
+      header {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+      }
+      h1 {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+      h2 {
+        font-size: 1.25rem;
+        font-weight: normal;
+        margin-bottom: 0.5rem;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      img {
+        width: 4rem;
+        height: 4rem;
+        border-radius: 1rem;
+        object-fit: cover;
+        border: 1px solid #f0f0f0;
+        border: 1px solid light-dark(#f0f0f0, #333333);
+      }
+      section.downloads {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        flex: 1 1 auto;
+        border-radius: 2rem;
+        border: 1px dashed #d3d3d3;
+        border: 1px dashed light-dark(#d3d3d3, #5a5a5a);
+        color: #d3d3d3;
+        color: light-dark(#d3d3d3, #5a5a5a);
       }
     </style>
   </head>
 
   <body>
-    <h1>{{ displayName }}</h1>
-    <img src="{{ appIconUri }}" alt="{{ displayName }} App-Icon" />
+    <div class="app">
+      <header>
+        <img src="{{ appIconUri }}" alt="{{ displayName }} App-Icon" />
+        <div>
+          <h1>{{ displayName }}</h1>
+          <h2>{{ description }}</h2>
+        </div>
+      </header>
+      <section class="downloads">TODO: Downloads Section</section>
+    </div>
   </body>
 </html>
